@@ -498,6 +498,18 @@ body:not(.dark-mode) .moon-icon {
     transition: var(--transition);
 }
 
+/* Variante: proyecto en construcción */
+.project__overlay--wip {
+    background-color: rgba(217, 119, 6, 0.9);
+}
+
+.project__link--wip {
+    background-color: white;
+    color: #d97706;
+    cursor: not-allowed;
+    /* pointer-events: none; */ /*Sirve para desactivar la función del click, así no lleva al link*/
+}
+
 .project__link:hover {
     transform: scale(1.05);
 }
@@ -609,6 +621,7 @@ body:not(.dark-mode) .moon-icon {
     resize: vertical;
     min-height: 150px;
 }
+
 
 /* =============== Footer =============== */
 .footer {

@@ -2,8 +2,8 @@
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 
-// Check for saved theme preference or default to light mode
-const currentTheme = localStorage.getItem('theme') || 'light';
+// Check for saved theme preference or default to dark mode
+const currentTheme = localStorage.getItem('theme') || 'dark';
 if (currentTheme === 'dark') {
     body.classList.add('dark-mode');
 }
@@ -94,7 +94,7 @@ animateElements.forEach(el => {
 });
 
 // =============== Contact Form Handling ===============
-const contactForm = document.getElementById('contact-form');
+/* const contactForm = document.getElementById('contact-form');
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -107,7 +107,7 @@ contactForm.addEventListener('submit', (e) => {
     
     // Reset form
     contactForm.reset();
-});
+}); */
 
 // =============== Smooth Scroll Polyfill for older browsers ===============
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {

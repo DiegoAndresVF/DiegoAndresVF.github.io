@@ -1,39 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Diego Villagrán - Full Stack Developer Portfolio">
-    <title>Diego Villagrán | Full Stack Developer</title>
+    <meta name="description" content="Diego Villagrán - Portafolio de Desarrollador Full Stack">
+    <title>Diego Villagrán | Desarrollador Full Stack</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
+
 <body>
-    <!-- Fixed Header -->
+    <!-- Header fijo -->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">Diego Villagrán</a>
             <ul class="nav__menu" id="nav-menu">
                 <li class="nav__item">
-                    <a href="#home" class="nav__link">Home</a>
+                    <a href="#home" class="nav__link">Inicio</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#about" class="nav__link">About</a>
+                    <a href="#about" class="nav__link">Sobre mí</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#skills" class="nav__link">Skills</a>
+                    <a href="#projects" class="nav__link">Proyectos</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#projects" class="nav__link">Projects</a>
+                    <a href="#skills" class="nav__link">Habilidades</a>
                 </li>
                 <li class="nav__item">
-                    <a href="#contact" class="nav__link">Contact</a>
+                    <a href="#contact" class="nav__link">Contacto</a>
                 </li>
             </ul>
-            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="12" cy="12" r="5"></circle>
                     <line x1="12" y1="1" x2="12" y2="3"></line>
                     <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -44,11 +47,12 @@
                     <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
                     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                 </svg>
-                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                 </svg>
             </button>
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+            <button class="nav__toggle" id="nav-toggle" aria-label="Alternar navegación">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -57,228 +61,253 @@
     </header>
 
     <main class="main">
-        <!-- Hero Section -->
+        <!-- Sección Hero -->
         <section class="hero section" id="home">
             <div class="hero__container container">
                 <div class="hero__content">
-                    <span class="hero__greeting">Hi, I'm</span>
+                    <span class="hero__greeting">Hola, soy</span>
                     <h1 class="hero__title">Diego Villagrán</h1>
-                    <p class="hero__description">Full Stack Developer focused on clean code, intuitive interfaces and scalable backend architectures.</p>
+                    <p class="hero__description">Desarrollador Full Stack enfocado en código limpio, interfaces
+                        intuitivas y arquitecturas backend escalables.</p>
                     <div class="hero__buttons">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                        <a href="#projects" class="btn btn-primary">Ver Proyectos</a>
+                        <a href="https://drive.google.com/file/d/1OFPcuTE3gVYoU_9FpFXx5_1yRMwomxo8/view?usp=sharing"
+                            target="_blank" class="btn btn-secondary">Currículum</a>
                     </div>
                 </div>
                 <div class="hero__image">
-                    <div class="hero__blob"></div>
+                    <div class="hero__blob">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" class="hero__icon">
+                            <circle cx="12" cy="8" r="4"></circle>
+                            <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <img src="" alt="">
                 </div>
             </div>
         </section>
 
-        <!-- About Section -->
+        <!-- Sección Sobre mí -->
         <section class="about section" id="about">
             <div class="container">
-                <h2 class="section__title">About Me</h2>
+                <h2 class="section__title">Sobre Mí</h2>
                 <div class="about__container">
                     <div class="about__content">
                         <p class="about__text">
-                            I'm a passionate Full Stack Developer with a keen eye for creating elegant solutions to complex problems. With years of experience in both frontend and backend development, I specialize in building responsive, user-friendly applications that scale.
+                            Soy un Desarrollador Full Stack apasionado, con buen ojo para crear soluciones elegantes a
+                            problemas complejos. Con años de experiencia tanto en desarrollo frontend como backend, me
+                            especializo en construir aplicaciones responsivas y amigables que escalan.
                         </p>
                         <p class="about__text">
-                            My approach combines modern technologies with timeless design principles to deliver exceptional digital experiences. I'm constantly learning and adapting to new technologies to stay at the forefront of web development.
+                            Mi enfoque combina tecnologías modernas con principios de diseño atemporales para ofrecer
+                            experiencias digitales excepcionales. Estoy en constante aprendizaje y adaptación a nuevas
+                            tecnologías para mantenerme a la vanguardia del desarrollo web.
                         </p>
-                        <div class="about__stats">
+                        <!-- <div class="about__stats">
+                            <div class="about__stat">
+                                <span class="stat__number">1+</span>
+                                <span class="stat__label">Años de Experiencia</span>
+                            </div>
+                            <div class="about__stat">
+                                <span class="stat__number">2+</span>
+                                <span class="stat__label">Proyectos Completados</span>
+                            </div>
                             <div class="about__stat">
                                 <span class="stat__number">5+</span>
-                                <span class="stat__label">Years Experience</span>
+                                <span class="stat__label">Clientes Satisfechos</span>
                             </div>
-                            <div class="about__stat">
-                                <span class="stat__number">50+</span>
-                                <span class="stat__label">Projects Completed</span>
-                            </div>
-                            <div class="about__stat">
-                                <span class="stat__number">30+</span>
-                                <span class="stat__label">Happy Clients</span>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Skills Section -->
+        <!-- Sección Proyectos -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Proyectos Destacados</h2>
+                <div class="projects__grid">
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/assets/img/Hoseki.png" alt="Plataforma de E-Commerce">
+                            <div class="project__overlay">
+                                <a href="https://hoseki.vercel.app/" target="_blank" class="project__link">Ver
+                                    Proyecto</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Plataforma de E-Commerce</h3>
+                            <p class="project__description">Solución de e-commerce full-stack con integración de pagos,
+                                gestión de inventario y analítica en tiempo real.</p>
+                            <div class="project__tech">
+                                <span class="tech__tag">React</span>
+                                <span class="tech__tag">Node.js</span>
+                                <span class="tech__tag">PostgreSQL</span>
+                                <span class="tech__tag">Springboot</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project__card">
+                        <div class="project__image">
+                            <img src="/assets/img/BACFull.png" alt="Aplicación de Gestión de Tareas">
+                            <div class="project__overlay project__overlay--wip ">
+                                <a href="#" class="project__link project__link--wip">En Construcción 🚧</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Web App Híbrida</h3>
+                            <p class="project__description">Sitio web que permitirá el agendamiento de servicios y la
+                                venta de repuestos.</p>
+                            <div class="project__tech">
+                                <span class="tech__tag">Vite</span>
+                                <span class="tech__tag">Express</span>
+                                <span class="tech__tag">PostgreSQL</span>
+                                <span class="tech__tag">React</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
         <section class="skills section" id="skills">
             <div class="container">
-                <h2 class="section__title">Skills & Technologies</h2>
+                <h2 class="section__title">Habilidades y Tecnologías</h2>
                 <div class="skills__grid">
                     <div class="skill__card">
                         <div class="skill__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
                                 <polyline points="16 18 22 12 16 6"></polyline>
                                 <polyline points="8 6 2 12 8 18"></polyline>
                             </svg>
                         </div>
-                        <h3 class="skill__title">Frontend Development</h3>
-                        <p class="skill__description">HTML, CSS, JavaScript, React, Vue.js, TypeScript</p>
+                        <h3 class="skill__title">Desarrollo Frontend</h3>
+                        <p class="skill__description">HTML, CSS, JavaScript, React, Vite, TypeScript</p>
                     </div>
                     <div class="skill__card">
                         <div class="skill__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
                                 <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
                                 <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
                                 <line x1="6" y1="6" x2="6.01" y2="6"></line>
                                 <line x1="6" y1="18" x2="6.01" y2="18"></line>
                             </svg>
                         </div>
-                        <h3 class="skill__title">Backend Development</h3>
+                        <h3 class="skill__title">Desarrollo Backend</h3>
                         <p class="skill__description">Node.js, Python, Express, Django, REST APIs</p>
                     </div>
                     <div class="skill__card">
                         <div class="skill__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
                                 <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
                                 <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
                                 <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
                             </svg>
                         </div>
-                        <h3 class="skill__title">Database Management</h3>
-                        <p class="skill__description">PostgreSQL, MongoDB, MySQL, Redis</p>
+                        <h3 class="skill__title">Gestión de Bases de Datos</h3>
+                        <p class="skill__description">PostgreSQL, MongoDB, MySQL, SQLServer</p>
                     </div>
                     <div class="skill__card">
                         <div class="skill__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="10"></circle>
                                 <polyline points="12 6 12 12 16 14"></polyline>
                             </svg>
                         </div>
-                        <h3 class="skill__title">DevOps & Cloud</h3>
+                        <h3 class="skill__title">DevOps y Cloud</h3>
                         <p class="skill__description">Docker, AWS, CI/CD, Git, Linux</p>
                     </div>
                     <div class="skill__card">
                         <div class="skill__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
                                 <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
                                 <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
                             </svg>
                         </div>
-                        <h3 class="skill__title">UI/UX Design</h3>
-                        <p class="skill__description">Figma, Adobe XD, Responsive Design, Accessibility</p>
+                        <h3 class="skill__title">Diseño UI/UX</h3>
+                        <p class="skill__description">Figma, Adobe XD, Diseño Responsivo, Accesibilidad</p>
                     </div>
                     <div class="skill__card">
                         <div class="skill__icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                                </path>
                             </svg>
                         </div>
-                        <h3 class="skill__title">Tools & Methods</h3>
-                        <p class="skill__description">Agile, Scrum, Testing, Code Review</p>
+                        <h3 class="skill__title">Herramientas y Metodologías</h3>
+                        <p class="skill__description">Agile, Scrum, Testing, Revisión de Código</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section class="projects section" id="projects">
-            <div class="container">
-                <h2 class="section__title">Featured Projects</h2>
-                <div class="projects__grid">
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=300&width=500" alt="E-Commerce Platform">
-                            <div class="project__overlay">
-                                <a href="#" class="project__link">View Project</a>
-                            </div>
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">E-Commerce Platform</h3>
-                            <p class="project__description">A full-stack e-commerce solution with payment integration, inventory management, and real-time analytics.</p>
-                            <div class="project__tech">
-                                <span class="tech__tag">React</span>
-                                <span class="tech__tag">Node.js</span>
-                                <span class="tech__tag">MongoDB</span>
-                                <span class="tech__tag">Stripe</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=300&width=500" alt="Task Management App">
-                            <div class="project__overlay">
-                                <a href="#" class="project__link">View Project</a>
-                            </div>
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Task Management App</h3>
-                            <p class="project__description">Collaborative task management tool with real-time updates, team collaboration features, and progress tracking.</p>
-                            <div class="project__tech">
-                                <span class="tech__tag">Vue.js</span>
-                                <span class="tech__tag">Express</span>
-                                <span class="tech__tag">PostgreSQL</span>
-                                <span class="tech__tag">WebSocket</span>
-                            </div>
-                        </div>
-                    </article>
-                    <article class="project__card">
-                        <div class="project__image">
-                            <img src="/placeholder.svg?height=300&width=500" alt="Analytics Dashboard">
-                            <div class="project__overlay">
-                                <a href="#" class="project__link">View Project</a>
-                            </div>
-                        </div>
-                        <div class="project__content">
-                            <h3 class="project__title">Analytics Dashboard</h3>
-                            <p class="project__description">Data visualization platform with interactive charts, custom reports, and automated insights generation.</p>
-                            <div class="project__tech">
-                                <span class="tech__tag">TypeScript</span>
-                                <span class="tech__tag">Python</span>
-                                <span class="tech__tag">D3.js</span>
-                                <span class="tech__tag">FastAPI</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
 
-        <!-- Contact Section -->
+
+        <!-- Sección Contacto -->
         <section class="contact section" id="contact">
             <div class="container">
-                <h2 class="section__title">Get In Touch</h2>
+                <h2 class="section__title">Contáctame</h2>
                 <div class="contact__container">
                     <div class="contact__info">
-                        <h3 class="contact__subtitle">Let's work together</h3>
+                        <h3 class="contact__subtitle">Trabajemos juntos</h3>
                         <p class="contact__text">
-                            I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out!
+                            Siempre estoy interesado en conocer nuevos proyectos y oportunidades. Ya sea que tengas una
+                            pregunta o solo quieras saludar, ¡no dudes en escribirme!
                         </p>
                         <div class="contact__details">
                             <div class="contact__detail">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
                                     <polyline points="22,6 12,13 2,6"></polyline>
                                 </svg>
-                                <span>diego.villagran@example.com</span>
+                                <span>diegovillagranfuentes@gmail.com</span>
                             </div>
                             <div class="contact__detail">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
                                     <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                     <circle cx="12" cy="10" r="3"></circle>
                                 </svg>
-                                <span>San Francisco, CA</span>
+                                <span>Santiago, RM</span>
                             </div>
                         </div>
                     </div>
-                    <form class="contact__form" id="contact-form">
+                    <img src="assets/img/mimikyu.jpg" alt="Mimikyu">
+                    <!-- <form class="contact__form" id="contact-form">
                         <div class="form__group">
-                            <input type="text" class="form__input" placeholder="Your Name" required>
+                            <input type="text" class="form__input" placeholder="Tu Nombre" required>
                         </div>
                         <div class="form__group">
-                            <input type="email" class="form__input" placeholder="Your Email" required>
+                            <input type="email" class="form__input" placeholder="Tu Correo" required>
                         </div>
                         <div class="form__group">
-                            <textarea class="form__input form__textarea" placeholder="Your Message" rows="5" required></textarea>
+                            <textarea class="form__input form__textarea" placeholder="Tu Mensaje" rows="5"
+                                required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                    </form>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+                    </form> -->
                 </div>
             </div>
         </section>
@@ -288,16 +317,23 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
-                <p class="footer__copy">&copy; 2025 Diego Villagrán. All rights reserved.</p>
+                <p class="footer__copy">&copy; 2026 Diego Villagrán. Todos los derechos reservados.</p>
                 <div class="footer__social">
-                    <a href="https://github.com" class="footer__link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    <a href="https://github.com/DiegoAndresVF" class="footer__link" target="_blank"
+                        rel="noopener noreferrer" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
                         </svg>
                     </a>
-                    <a href="https://linkedin.com" class="footer__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <a href="https://www.linkedin.com/in/diego-villagran-fuentes/" class="footer__link" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
                             <rect x="2" y="9" width="4" height="12"></rect>
                             <circle cx="4" cy="4" r="2"></circle>
                         </svg>
@@ -309,4 +345,5 @@
 
     <script src="scripts/main.js"></script>
 </body>
+
 </html>
